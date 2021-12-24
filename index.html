@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>weather app</title>
+  </head>
+  <body>
+    <!-- api -->
+    <div class="api">
+      <div class="container"></div>
+    </div>
+    <!-- top-banner -->
+    <section class="top-banner">
+      <div class="container">
+        <!-- heading -->
+        <h1 class="heading">Simple Weather App</h1>
+        <!-- form -->
+        <form>
+          <input type="text" placeholder="Search for a city" autofocus />
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+    <!-- ajax-section -->
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <small
+          >Made With <span>❤</span>by
+          <a href="savanabaqeri@gmail.com" target="_blank"
+            >Savana Baqeri</a
+          ></small
+        >
+      </div>
+    </footer>
+    <!-- partial -->
+    <script src="app.js"></script>
+  </body>
+</html>
